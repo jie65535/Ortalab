@@ -525,9 +525,9 @@ return {
 			j_ortalab_20_20 = {
 				name = '20/20 Vision',
 				text = {
-					'Retrigger all played cards if', 
+					'如果满足条件则重新触发所有打出的卡牌', 
 					'{C:attention}scored cards{} contain multiple',
-					'unique ranks'
+					'不同点数'
 				}
 			},
 			['j_ortalab_televangelist'] = {
@@ -535,7 +535,7 @@ return {
 				["text"] = {
 					"{C:green}#1# in #2#{} chance for",
 					"{C:ortalab_loteria}Loteria Cards{} to be",
-					"kept when used",
+					"使用时保留",
 					"{C:inactive,s:0.8}(Each card can only be kept once)"
 				}
 			},
@@ -632,7 +632,7 @@ return {
 						"Costs {C:red}$#1#{} to sell"
 					},{
 						'Lose {C:red}$#2#{} at',
-						'end of round'
+						'回合结束'
 					}
 				}
 			},
@@ -640,7 +640,7 @@ return {
 				["name"] = "Basalt Column",
 				["text"] = {
 					"Each {V:1}#2#{}",
-					"held in hand",
+					"手中持有",
 					"gives {C:red}+#1#{} Mult",
 				}
 			},
@@ -772,7 +772,7 @@ return {
 				["text"] = {
 					"Each played {C:attention}A{}, {C:attention}10{}, {C:attention}9{}, {C:attention}8{},",
 					"{C:attention}6{} or {C:attention}4{} gives {X:mult,C:white}X#1#{} Mult",
-					"when scored",
+					"当计分时",
 				}
 			},
 			j_ortalab_collectors = {
@@ -852,7 +852,7 @@ return {
 				["name"] = "Dripstone",
 				["text"] = {
 					"Each {V:1}#2#{}",
-					"held in hand",
+					"手中持有",
 					"gives {C:blue}+#1#{} Chips",
 				}
 			},
@@ -871,7 +871,7 @@ return {
 					'{C:attention}#1#s{}',},
 					{'Played {C:attention}#1#s{} give',
 					'{C:chips}+#2#{} Chips and {C:mult}+#3#{} Mult',
-					'when scored',}
+					'当计分时',}
 				}
 			},
 			j_ortalab_drunk_driving = {
@@ -938,7 +938,7 @@ return {
 				["name"] = "Fool's Gold",
 				["text"] = {
 					"Each {V:1}#4#{}",
-					"held in hand",
+					"手中持有",
 					"has {C:green}#1# in #2#{} chance",
 					"to gain {C:money}$#3#{}", 
 				}
@@ -948,7 +948,7 @@ return {
 				text = {
 					'Gain {C:money}$#1#{} of {C:attention}sell value',
 					'for each other {C:attention}Joker',
-					'at end of round'
+					'在回合结束时'
 				}
 			},
 			['j_ortalab_forklift'] = {
@@ -990,7 +990,7 @@ return {
 				["text"] = {
 					"Each played {C:attention}2{}, {C:attention}3{}, {C:attention}4{},",
 					"or {C:attention}5{} gives {C:mult}+#1#{} Mult",
-					"when scored",
+					"当计分时",
 				}
 			},
 			j_ortalab_futuristic = {
@@ -1282,7 +1282,7 @@ return {
 					'{C:red}+#1#{} Mult per card',
 					'held in hand if no',
 					'{C:attention}face{} cards are',
-					'held in hand'
+					'手中持有'
 				}
 			},
 			['j_ortalab_occultist'] = {
@@ -1488,7 +1488,7 @@ return {
 				["text"] = {
 					"For each played {C:attention}2{} or {C:attention}5{},",
 					"{C:chips}+#1#{} Chips and {C:mult}+#2#{} Mult",
-					"when scored",
+					"当计分时",
 				}
 			},
 			['j_ortalab_royal_gala'] = {
@@ -1497,7 +1497,7 @@ return {
 					{"{C:white,X:blue}X#1#{} Chips",},
 					{"{C:green}#2# in #3#{} chance this",
 					"card is destroyed",
-					"at end of round",}
+					"在回合结束时",}
 				}
 			},
 			['j_ortalab_rusty'] = {
@@ -1557,7 +1557,7 @@ return {
 				["text"] = {
 					"Each played {C:attention}2{}, {C:attention}3{}, {C:attention}4{},",
 					"or {C:attention}5{} gives {C:chips}+#1#{} Chips",
-					"when scored",
+					"当计分时",
 				}
 			},
 			['j_ortalab_scenic'] = {
@@ -1769,7 +1769,7 @@ return {
 					{"{C:chips}+#1#{} Chips",},
 					{"{C:green}#2# in #3#{} chance this",
 					"card is destroyed",
-					"at end of round",}
+					"在回合结束时",}
 				}
 			},
 			['j_ortalab_triangle'] = {
@@ -2193,7 +2193,7 @@ return {
 				}
 			},
 		},
-		["Edition"] = {
+		["版本"] = {
 			['e_ortalab_overexposed'] = {
 				name = "过曝",
 				text = {
@@ -2218,7 +2218,7 @@ return {
 				name = "荧光",
 				text = {
 					"Earn {C:money}$#1#{} at",
-					'end of round'
+					'回合结束'
 				}
 			},
 			['e_ortalab_anaglyphic'] = {
