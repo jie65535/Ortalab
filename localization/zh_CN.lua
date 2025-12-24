@@ -3300,7 +3300,7 @@ return {
 			['stake_ortalab_three'] = {
 				["name"] = '紫晶注',
 				["text"] = {
-					"{C:attention}+1{} 底注",
+					"{C:attention}+#1#{} 底注",
 					'{C:inactive,s:0.9}底注提升时过关需求分数的增速更快',
 					"{s:0.8}之前所有赌注也都起效"
 				}
@@ -3309,7 +3309,7 @@ return {
 				["name"] = '蓝宝注',
 				["text"] = {
 					"底注1之后",
-					'必须{C:red}跳过{C:attention}至少3个盲注',
+					'必须{C:red}跳过{C:attention}至少#1#个盲注',
 					"{s:0.8}之前所有赌注也都起效"
 				}
 			},
